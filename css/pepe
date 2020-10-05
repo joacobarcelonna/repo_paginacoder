@@ -1,0 +1,66 @@
+.contenedor .menu 
+.contenedor .material .material
+.contenedor footer
+.contenedor div{
+    background: #ffffff;
+    padding: 20px;
+    border: 20px solid #000000;
+}
+
+.contenedor .menu,
+.contenedor footer{
+    grid-column: span 4;
+    background-color: lightgrey;    
+    color: #ffffff;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+
+.contenedor .material{
+    grid-column: 1/2;
+    background-color: lightgrey;    
+    text-align: center;
+  
+   
+}
+
+nav div{
+    display: inline;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    
+}
+
+nav div a{
+    text-decoration: none;
+    color: black;
+}
+
+nav div a:hover{
+    background-color: antiquewhite;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.video1{
+    display: flex;
+    align-content: center;
+    padding-left: 50px;
+    
+}
+
+.audio1{
+    display: flex;
+    align-content: center;
+    padding-left: 50px;
+}

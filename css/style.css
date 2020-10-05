@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Quicksand?sidebar.open=true&selection.family=Quicksand:wght@700#standard-styles);
+* {
+  margin: 0;
+  padding: 0; }
+
+.nav--principal {
+  background-color: #333 !important; }
+
+.nav__logo {
+  color: #ffff !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+.nav-link {
+  color: #ffff !important; }
+
+.nav-linkhover {
+  color: #333 !important; }
+
+.banner {
+  position: relative;
+  margin-top: 75px; }
+
+.navbar {
+  margin-bottom: 0;
+  min-height: 75px;
+  border-radius: 0;
+  background: #fff;
+  text-transform: uppercase; }
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  position: fixed;
+  z-index: 1030;
+  right: 0;
+  left: 0; }
+
+.contenido--principal {
+  background-color: #f8f8f8;
+  border-top: 4px solid #eba134;
+  margin-top: 10px; }
+
+.contenido__Titulo1 {
+  font-family: ‘quicksand‘;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px; }
+
+.contenido__parrafo {
+  text-align: center; }
+
+.contenido__audio {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  height: 388px; }
+
+.contenido__audio__posicion {
+  margin-top: 150px; }
+
+.contenido__audio:hover {
+  background: #dbd9d9; }
+
+.sec-porfolio {
+  border-top: 3px solid orange; }
+
+.container-fluid {
+  margin-top: 80px; }
+
+header .sec-encabezado {
+  font-family: ‘quicksand‘;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.grilla-videos:hover {
+  background: #dbd9d9; }
+
+.row .grilla-videos {
+  padding-left: 10px;
+  padding-right: 0px; }
+
+.cajaCliente {
+  display: block;
+  border-top: 4px solid orange;
+  margin-top: 30px; }
+
+.clientes__titulo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: ‘quicksand‘;
+  font-weight: 700; }
+
+.cliente-layout .cliente-efecto {
+  transition: all 0.3s; }
+
+.cliente-layout .cliente-efecto:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s; }
+
+footer {
+  background: #333; }
+  footer .footer-contacto-social {
+    color: #ffff;
+    padding: 0;
+    display: inline; }
+  footer li {
+    display: inline-block;
+    padding-right: 35px;
+    margin-right: 35px;
+    padding-left: 60px;
+    text-align: center; }
+  footer ul {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif; }
+  footer .texto-sociales {
+    color: #ffff;
+    text-transform: uppercase;
+    margin-right: 1px solid #777; }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding: 0px; }
